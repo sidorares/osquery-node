@@ -1,0 +1,22 @@
+{
+  "name": "osquery",
+  "version": "1.0.0",
+  "description": "facebook osquery client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sidorares/osquery-node.git"
+  },
+  "keywords": [
+    "osquery"
+  ],
+  "author": "Andrey Sidorov <sidorares@yandex.ru>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "thrift": "^0.9.2"
+  }
+}
