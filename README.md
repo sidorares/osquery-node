@@ -15,7 +15,7 @@ client:
 var osquery = require('osquery');
 
 var os = osquery.createClient({ path: '/var/osquery/osquery.em' });
-os.query('select * SELECT uid, name FROM listening_ports l, processes p WHERE l.pid=p.pid', function(err, res) {
+os.query('SELECT uid, name FROM listening_ports l, processes p WHERE l.pid=p.pid', function(err, res) {
   console.log(res);
 });
 
