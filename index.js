@@ -5,7 +5,7 @@ var Types            = require('./gen-nodejs/osquery_types.js');
 
 function Client(opts) {
   opts = opts || {};
-  var path = opts.path || '/var/osquery/osquery.em';
+  var path = opts.path || '/Users/' + process.env.USER + '/.osquery/shell.em';
   var conn = thrift.createConnection(0, path);
   this._em = thrift.createClient(ExtensionManager, conn);
   this._socketPath = path;
