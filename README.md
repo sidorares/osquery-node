@@ -1,6 +1,8 @@
 osquery-node
 ==============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sidorares/osquery-node.svg)](https://greenkeeper.io/)
+
 Facebook [osquery](https://github.com/facebook/osquery) client for node.js
 
 ## Installation
